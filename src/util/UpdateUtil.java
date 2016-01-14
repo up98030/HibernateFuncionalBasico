@@ -13,7 +13,7 @@ public class UpdateUtil {
 
         public static void main(String[] args) {
 
-                Configuration cf = new Configuration().configure("hibernate.cfg.xml");
+                Configuration cf = new Configuration().configure("hibernateMysql.cfg.xml");
 
                 StandardServiceRegistryBuilder srb = new StandardServiceRegistryBuilder();
                 srb.applySettings(cf.getProperties());
